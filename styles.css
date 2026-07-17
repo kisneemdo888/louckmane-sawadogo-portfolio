@@ -204,6 +204,11 @@ html[data-lang="en"] .lang-toggle span:last-child{opacity:1;color:var(--green-70
   font-size:.78rem;font-weight:700;padding:6px 14px;border-radius:999px;margin-top:6px;
 }
 
+.thesis-block{margin-top:16px;padding-top:16px;border-top:1px solid var(--border)}
+.thesis-label{font-size:.78rem;font-weight:700;color:var(--blue-700);text-transform:uppercase;letter-spacing:.03em;margin-bottom:6px}
+.thesis-title{font-size:.92rem;font-style:italic;color:var(--ink);line-height:1.5;margin-bottom:6px}
+.thesis-meta{font-size:.85rem;color:var(--ink-soft);margin-bottom:0}
+
 /* ---------- Experience cards ---------- */
 .card-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
 .exp-card{
@@ -274,8 +279,9 @@ html[data-lang="en"] .lang-toggle span:last-child{opacity:1;color:var(--green-70
 .lang-level i.off{background:var(--border)}
 .lang-note{margin-top:16px;font-size:.78rem;color:var(--ink-soft);line-height:1.5}
 
+.cert-strip-list{margin-top:32px;display:flex;flex-direction:column;gap:14px}
 .cert-strip{
-  margin-top:32px;display:flex;align-items:center;gap:12px;
+  display:flex;align-items:center;gap:12px;
   background:var(--blue-100);color:var(--blue-900);padding:16px 22px;border-radius:14px;
   font-size:.88rem;font-weight:600;
 }
