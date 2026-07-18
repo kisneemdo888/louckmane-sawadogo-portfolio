@@ -101,15 +101,17 @@ h1,h2,h3{font-family:var(--font-display);font-weight:600;line-height:1.15;letter
 
 .header-actions{display:flex;align-items:center;gap:14px}
 .lang-toggle{
-  font-size:.82rem;font-weight:700;letter-spacing:.03em;
-  border:1.5px solid var(--border);border-radius:999px;padding:8px 14px;
-  transition:border-color var(--transition),color var(--transition);
+  display:flex;align-items:center;gap:2px;
+  border:1.5px solid var(--border);border-radius:999px;padding:3px;
+  transition:border-color var(--transition);
 }
-.lang-toggle span{opacity:.4}
-.lang-toggle span[data-lang-active]{opacity:.4}
 .lang-toggle:hover{border-color:var(--green-700)}
-html[data-lang="fr"] .lang-toggle span:first-child,
-html[data-lang="en"] .lang-toggle span:last-child{opacity:1;color:var(--green-700)}
+.lang-btn{
+  font-size:.78rem;font-weight:700;letter-spacing:.03em;
+  padding:6px 10px;border-radius:999px;color:var(--ink-soft);
+  transition:background var(--transition),color var(--transition);
+}
+.lang-btn.active{background:var(--green-700);color:#fff}
 
 .nav-toggle{display:none;flex-direction:column;gap:5px;width:26px;padding:4px}
 .nav-toggle span{height:2px;background:var(--ink);border-radius:2px;transition:var(--transition)}

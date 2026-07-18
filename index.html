@@ -36,20 +36,22 @@
 
     <nav class="main-nav" id="main-nav">
       <ul>
-        <li><a href="#accueil" data-lang="fr">Accueil</a><a href="#accueil" data-lang="en" hidden>Home</a></li>
-        <li><a href="#apropos" data-lang="fr">À propos</a><a href="#apropos" data-lang="en" hidden>About</a></li>
-        <li><a href="#formation" data-lang="fr">Formation</a><a href="#formation" data-lang="en" hidden>Education</a></li>
-        <li><a href="#experience" data-lang="fr">Expérience</a><a href="#experience" data-lang="en" hidden>Experience</a></li>
-        <li><a href="#projets" data-lang="fr">Projets</a><a href="#projets" data-lang="en" hidden>Projects</a></li>
-        <li><a href="#competences" data-lang="fr">Compétences</a><a href="#competences" data-lang="en" hidden>Skills</a></li>
-        <li><a href="#contact" class="nav-cta" data-lang="fr">Contact</a><a href="#contact" class="nav-cta" data-lang="en" hidden>Contact</a></li>
+        <li><a href="#accueil" data-lang="fr">Accueil</a><a href="#accueil" data-lang="en" hidden>Home</a><a href="#accueil" data-lang="tr" hidden>Ana Sayfa</a></li>
+        <li><a href="#apropos" data-lang="fr">À propos</a><a href="#apropos" data-lang="en" hidden>About</a><a href="#apropos" data-lang="tr" hidden>Hakkımda</a></li>
+        <li><a href="#formation" data-lang="fr">Formation</a><a href="#formation" data-lang="en" hidden>Education</a><a href="#formation" data-lang="tr" hidden>Eğitim</a></li>
+        <li><a href="#experience" data-lang="fr">Expérience</a><a href="#experience" data-lang="en" hidden>Experience</a><a href="#experience" data-lang="tr" hidden>Deneyim</a></li>
+        <li><a href="#projets" data-lang="fr">Projets</a><a href="#projets" data-lang="en" hidden>Projects</a><a href="#projets" data-lang="tr" hidden>Projeler</a></li>
+        <li><a href="#competences" data-lang="fr">Compétences</a><a href="#competences" data-lang="en" hidden>Skills</a><a href="#competences" data-lang="tr" hidden>Yetenekler</a></li>
+        <li><a href="#contact" class="nav-cta" data-lang="fr">Contact</a><a href="#contact" class="nav-cta" data-lang="en" hidden>Contact</a><a href="#contact" class="nav-cta" data-lang="tr" hidden>İletişim</a></li>
       </ul>
     </nav>
 
     <div class="header-actions">
-      <button class="lang-toggle" id="lang-toggle" aria-label="Changer de langue / Switch language" type="button">
-        <span data-lang-active="fr">FR</span> / <span data-lang-active="en">EN</span>
-      </button>
+      <div class="lang-toggle" role="group" aria-label="Changer de langue / Switch language / Dil değiştir">
+        <button class="lang-btn" data-set-lang="fr" type="button">FR</button>
+        <button class="lang-btn" data-set-lang="en" type="button">EN</button>
+        <button class="lang-btn" data-set-lang="tr" type="button">TR</button>
+      </div>
       <button class="nav-toggle" id="nav-toggle" aria-label="Menu" aria-expanded="false" type="button">
         <span></span><span></span><span></span>
       </button>
@@ -78,28 +80,31 @@
     <div class="hero-text reveal">
       <p class="eyebrow" data-lang="fr">Portfolio professionnel</p>
       <p class="eyebrow" data-lang="en" hidden>Professional Portfolio</p>
+      <p class="eyebrow" data-lang="tr" hidden>Profesyonel Portfolyo</p>
 
       <h1>Louckmane <span>SAWADOGO</span></h1>
 
       <p class="hero-role" data-lang="fr">Ingénieur en Agropastoralisme · Master en Biotechnologie Agricole</p>
       <p class="hero-role" data-lang="en" hidden>Agropastoral Engineer · M.Sc. in Agricultural Biotechnology</p>
+      <p class="hero-role" data-lang="tr" hidden>Agropastoral Mühendisi · Tarımsal Biyoteknoloji Yüksek Lisansı</p>
 
       <p class="hero-tagline" data-lang="fr">Je conçois des solutions agricoles innovantes et durables, à la croisée de la rigueur scientifique et de l'esprit entrepreneurial — du Burkina Faso à la Turquie.</p>
       <p class="hero-tagline" data-lang="en" hidden>I design innovative, sustainable agricultural solutions — where scientific rigor meets an entrepreneurial mindset, from Burkina Faso to Turkey.</p>
+      <p class="hero-tagline" data-lang="tr" hidden>Burkina Faso'dan Türkiye'ye, bilimsel titizlik ile girişimci ruhun kesişiminde yenilikçi ve sürdürülebilir tarımsal çözümler geliştiriyorum.</p>
 
       <div class="hero-cta">
         <a href="#contact" class="btn btn-primary">
-          <span data-lang="fr">Discutons de votre projet</span><span data-lang="en" hidden>Let's talk</span>
+          <span data-lang="fr">Discutons de votre projet</span><span data-lang="en" hidden>Let's talk</span><span data-lang="tr" hidden>Projenizi Konuşalım</span>
         </a>
         <a href="#apropos" class="btn btn-ghost">
-          <span data-lang="fr">Découvrir mon parcours</span><span data-lang="en" hidden>Discover my journey</span>
+          <span data-lang="fr">Découvrir mon parcours</span><span data-lang="en" hidden>Discover my journey</span><span data-lang="tr" hidden>Yolculuğumu Keşfedin</span>
         </a>
       </div>
 
       <ul class="hero-badges">
-        <li><span class="badge-dot"></span><span data-lang="fr">Boursier IsDB</span><span data-lang="en" hidden>IsDB Scholar</span></li>
-        <li><span class="badge-dot"></span><span data-lang="fr">Président — CLAGEC</span><span data-lang="en" hidden>President — CLAGEC</span></li>
-        <li><span class="badge-dot"></span><span data-lang="fr">Co-fondateur — Apex E-Know</span><span data-lang="en" hidden>Co-founder — Apex E-Know</span></li>
+        <li><span class="badge-dot"></span><span data-lang="fr">Boursier IsDB</span><span data-lang="en" hidden>IsDB Scholar</span><span data-lang="tr" hidden>IsDB Bursiyeri</span></li>
+        <li><span class="badge-dot"></span><span data-lang="fr">Président — CLAGEC</span><span data-lang="en" hidden>President — CLAGEC</span><span data-lang="tr" hidden>Başkan — CLAGEC</span></li>
+        <li><span class="badge-dot"></span><span data-lang="fr">Co-fondateur — Apex E-Know</span><span data-lang="en" hidden>Co-founder — Apex E-Know</span><span data-lang="tr" hidden>Kurucu Ortak — Apex E-Know</span></li>
       </ul>
     </div>
 
@@ -126,8 +131,10 @@
     <div class="about-text reveal">
       <p class="section-eyebrow" data-lang="fr">À propos</p>
       <p class="section-eyebrow" data-lang="en" hidden>About</p>
+      <p class="section-eyebrow" data-lang="tr" hidden>Hakkımda</p>
       <h2 data-lang="fr">Une science agricole tournée vers l'action</h2>
       <h2 data-lang="en" hidden>Agricultural science built for action</h2>
+      <h2 data-lang="tr" hidden>Eyleme Dönük Bir Tarım Bilimi</h2>
 
       <div data-lang="fr">
         <p>Originaire de Mangorotou, dans la région des Cascades au Burkina Faso, j'ai construit mon parcours autour d'une conviction simple : l'agriculture de demain se joue à la croisée de la science, du terrain et de l'innovation.</p>
@@ -141,22 +148,31 @@
         <p>This dual experience — West African agropastoral fieldwork and Turkish biotechnology research — shapes my vision of a resilient agriculture, able to meet climate challenges while remaining accessible to local producers.</p>
         <p>What sets me apart: an approach that combines applied research (field surveys, experimental setups, data analysis) with an entrepreneurial mindset, through my community leadership and the co-founding of a digital agency. I believe in agricultural science that translates into concrete results for communities.</p>
       </div>
+      <div data-lang="tr" hidden>
+        <p>Burkina Faso'nun Cascades bölgesindeki Mangorotou'dan geliyorum. Yolculuğumu basit bir inanç üzerine inşa ettim: yarının tarımı bilim, saha çalışması ve yeniliğin kesişiminde şekilleniyor.</p>
+        <p>Banfora Üniversite Merkezi'nde Tarım Bilimleri ve Gıda Mühendisliği Lisansı'nı (Agropastoralizm alanı, Pekiyi derece) tamamladıktan sonra, bugün Türkiye'de İslam Kalkınma Bankası (IsDB) bursiyeri olarak Tarımsal Biyoteknoloji Yüksek Lisansı yapıyorum — toprak mikrobiyolojisi ve sürdürülebilir tarım alanında araştırma ilgim var.</p>
+        <p>Bu çifte deneyim — Batı Afrika'daki agropastoral saha çalışması ve Türkiye'deki biyoteknoloji araştırmaları — iklim zorluklarına yanıt verirken yerel üreticiler için erişilebilir kalabilen dirençli bir tarım vizyonunu besliyor.</p>
+        <p>Beni farklı kılan: uygulamalı araştırmayı (saha anketleri, deneysel düzenekler, veri analizi) girişimci bir yaklaşımla birleştirmem — dernekçilik faaliyetlerim ve bir dijital ajansın ortak kuruculuğu aracılığıyla. Topluluklar için somut sonuçlara dönüşen, faydalı bir tarım bilimine inanıyorum.</p>
+      </div>
 
       <div class="about-stats">
         <div class="stat">
           <span class="stat-value">3</span>
           <span class="stat-label" data-lang="fr">Stages de terrain</span>
           <span class="stat-label" data-lang="en" hidden>Field internships</span>
+          <span class="stat-label" data-lang="tr" hidden>Saha Stajı</span>
         </div>
         <div class="stat">
           <span class="stat-value">5</span>
           <span class="stat-label" data-lang="fr">Langues parlées</span>
           <span class="stat-label" data-lang="en" hidden>Languages spoken</span>
+          <span class="stat-label" data-lang="tr" hidden>Konuşulan Dil</span>
         </div>
         <div class="stat">
           <span class="stat-value">2</span>
           <span class="stat-label" data-lang="fr">Pays d'expérience</span>
           <span class="stat-label" data-lang="en" hidden>Countries of experience</span>
+          <span class="stat-label" data-lang="tr" hidden>Deneyim Ülkesi</span>
         </div>
       </div>
     </div>
@@ -169,8 +185,10 @@
     <div class="section-head reveal">
       <p class="section-eyebrow" data-lang="fr">Parcours académique</p>
       <p class="section-eyebrow" data-lang="en" hidden>Academic Path</p>
+      <p class="section-eyebrow" data-lang="tr" hidden>Akademik Yolculuk</p>
       <h2 data-lang="fr">Formation</h2>
       <h2 data-lang="en" hidden>Education</h2>
+      <h2 data-lang="tr" hidden>Eğitim</h2>
     </div>
 
     <div class="timeline">
@@ -178,33 +196,41 @@
       <div class="timeline-item reveal">
         <div class="timeline-dot"></div>
         <div class="timeline-card">
-          <span class="timeline-date">Oct. 2025 — <span data-lang="fr">Présent</span><span data-lang="en" hidden>Present</span></span>
+          <span class="timeline-date">Oct. 2025 — <span data-lang="fr">Présent</span><span data-lang="en" hidden>Present</span><span data-lang="tr" hidden>Devam ediyor</span></span>
           <h3 data-lang="fr">Master en Biotechnologie Agricole</h3>
           <h3 data-lang="en" hidden>M.Sc. in Agricultural Biotechnology</h3>
-          <p class="timeline-place">Malatya Turgut Özal Üniversitesi — <span data-lang="fr">Turquie</span><span data-lang="en" hidden>Turkey</span></p>
+          <h3 data-lang="tr" hidden>Tarımsal Biyoteknoloji Yüksek Lisansı</h3>
+          <p class="timeline-place">Malatya Turgut Özal Üniversitesi — <span data-lang="fr">Turquie</span><span data-lang="en" hidden>Turkey</span><span data-lang="tr" hidden>Türkiye</span></p>
           <span class="pill" data-lang="fr">Boursier — Banque Islamique de Développement (IsDB)</span>
           <span class="pill" data-lang="en" hidden>Scholar — Islamic Development Bank (IsDB)</span>
+          <span class="pill" data-lang="tr" hidden>Bursiyer — İslam Kalkınma Bankası (IsDB)</span>
         </div>
       </div>
 
       <div class="timeline-item reveal">
         <div class="timeline-dot"></div>
         <div class="timeline-card">
-          <span class="timeline-date"><span data-lang="fr">Févr. 2023 — Août 2025</span><span data-lang="en" hidden>Feb. 2023 — Aug. 2025</span></span>
+          <span class="timeline-date"><span data-lang="fr">Févr. 2023 — Août 2025</span><span data-lang="en" hidden>Feb. 2023 — Aug. 2025</span><span data-lang="tr" hidden>Şub. 2023 — Ağu. 2025</span></span>
           <h3 data-lang="fr">Licence en Sciences Agricoles et Génie Agroalimentaire</h3>
           <h3 data-lang="en" hidden>Bachelor's Degree in Agricultural Science and Food Engineering</h3>
+          <h3 data-lang="tr" hidden>Tarım Bilimleri ve Gıda Mühendisliği Lisansı</h3>
           <p class="timeline-place" data-lang="fr">Option Agropastoralisme — Centre Universitaire de Banfora (Université Nazi Boni), Burkina Faso</p>
           <p class="timeline-place" data-lang="en" hidden>Agropastoralism track — University Center of Banfora (Nazi Boni University), Burkina Faso</p>
+          <p class="timeline-place" data-lang="tr" hidden>Agropastoralizm alanı — Banfora Üniversite Merkezi (Nazi Boni Üniversitesi), Burkina Faso</p>
           <span class="pill" data-lang="fr">Mention Très-Bien</span>
           <span class="pill" data-lang="en" hidden>Honors: Very Good (Très-Bien)</span>
+          <span class="pill" data-lang="tr" hidden>Pekiyi Derece</span>
 
           <div class="thesis-block">
             <p class="thesis-label" data-lang="fr">Mémoire de fin d'études — 17,4/20, mention Très-Bien</p>
             <p class="thesis-label" data-lang="en" hidden>Undergraduate thesis — 17.4/20, Very Good</p>
+            <p class="thesis-label" data-lang="tr" hidden>Bitirme Tezi — 17,4/20, Pekiyi Derece</p>
             <p class="thesis-title" data-lang="fr">« Enjeux et perspectives des facteurs socio-économiques et démographiques de l'adoption de bio-intrants dans la culture de la tomate (<em>Solanum lycopersicum</em> L.) dans la commune de Banfora »</p>
             <p class="thesis-title" data-lang="en" hidden>“Issues and prospects of socio-economic and demographic factors in the adoption of bio-inputs in tomato cultivation (<em>Solanum lycopersicum</em> L.) in the municipality of Banfora”</p>
+            <p class="thesis-title" data-lang="tr" hidden>«Banfora belediyesinde domates (<em>Solanum lycopersicum</em> L.) yetiştiriciliğinde biyo-girdi benimsenmesinin sosyo-ekonomik ve demografik faktörlerinin sorunları ve beklentileri»</p>
             <p class="thesis-meta" data-lang="fr">Sous la direction du Dr Moussa GANAME, Centre Universitaire de Banfora</p>
             <p class="thesis-meta" data-lang="en" hidden>Supervised by Dr Moussa GANAME, University Center of Banfora</p>
+            <p class="thesis-meta" data-lang="tr" hidden>Dr. Moussa GANAME danışmanlığında, Banfora Üniversite Merkezi</p>
           </div>
         </div>
       </div>
@@ -212,11 +238,13 @@
       <div class="timeline-item reveal">
         <div class="timeline-dot"></div>
         <div class="timeline-card">
-          <span class="timeline-date"><span data-lang="fr">Oct. 2021 — Janv. 2023</span><span data-lang="en" hidden>Oct. 2021 — Jan. 2023</span></span>
+          <span class="timeline-date"><span data-lang="fr">Oct. 2021 — Janv. 2023</span><span data-lang="en" hidden>Oct. 2021 — Jan. 2023</span><span data-lang="tr" hidden>Eki. 2021 — Oca. 2023</span></span>
           <h3 data-lang="fr">DEUG 2 en Sciences Agricoles</h3>
           <h3 data-lang="en" hidden>Associate Degree in Agricultural Sciences</h3>
+          <h3 data-lang="tr" hidden>Tarım Bilimleri Ön Lisans (DEUG 2)</h3>
           <p class="timeline-place" data-lang="fr">Centre Universitaire Polytechnique de Banfora, Burkina Faso</p>
           <p class="timeline-place" data-lang="en" hidden>Polytechnic University Center of Banfora, Burkina Faso</p>
+          <p class="timeline-place" data-lang="tr" hidden>Banfora Politeknik Üniversite Merkezi, Burkina Faso</p>
         </div>
       </div>
 
@@ -226,8 +254,10 @@
           <span class="timeline-date">2018 — 2021</span>
           <h3 data-lang="fr">Baccalauréat, série D</h3>
           <h3 data-lang="en" hidden>High School Diploma, Science Track (série D)</h3>
+          <h3 data-lang="tr" hidden>Lise Diploması (Bakalorya), D Bölümü</h3>
           <p class="timeline-place" data-lang="fr">Lycée Départemental de Lèna, Burkina Faso</p>
           <p class="timeline-place" data-lang="en" hidden>Lycée Départemental de Lèna, Burkina Faso</p>
+          <p class="timeline-place" data-lang="tr" hidden>Lèna İl Lisesi, Burkina Faso</p>
         </div>
       </div>
 
@@ -241,8 +271,10 @@
     <div class="section-head reveal">
       <p class="section-eyebrow" data-lang="fr">Terrain &amp; pratique</p>
       <p class="section-eyebrow" data-lang="en" hidden>Field &amp; Practice</p>
+      <p class="section-eyebrow" data-lang="tr" hidden>Saha &amp; Uygulama</p>
       <h2 data-lang="fr">Expérience professionnelle</h2>
       <h2 data-lang="en" hidden>Professional Experience</h2>
+      <h2 data-lang="tr" hidden>Mesleki Deneyim</h2>
     </div>
 
     <div class="card-grid">
@@ -251,11 +283,13 @@
         <div class="exp-icon">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 9h1m4 0h1m-6 4h1m4 0h1m-6 4h1m4 0h1"/></svg>
         </div>
-        <span class="timeline-date"><span data-lang="fr">Août 2024 — Juin 2025</span><span data-lang="en" hidden>Aug. 2024 — Jun. 2025</span></span>
+        <span class="timeline-date"><span data-lang="fr">Août 2024 — Juin 2025</span><span data-lang="en" hidden>Aug. 2024 — Jun. 2025</span><span data-lang="tr" hidden>Ağu. 2024 — Haz. 2025</span></span>
         <h3 data-lang="fr">Stagiaire</h3>
         <h3 data-lang="en" hidden>Intern</h3>
+        <h3 data-lang="tr" hidden>Stajyer</h3>
         <p class="timeline-place" data-lang="fr">DRARAH-Cascades — Direction Régionale de l'Agriculture, des Ressources Animales et Halieutiques</p>
         <p class="timeline-place" data-lang="en" hidden>DRARAH-Cascades — Regional Directorate of Agriculture, Animal &amp; Fisheries Resources</p>
+        <p class="timeline-place" data-lang="tr" hidden>DRARAH-Cascades — Bölgesel Tarım, Hayvansal Kaynaklar ve Su Ürünleri Müdürlüğü</p>
         <ul data-lang="fr">
           <li>Réalisation d'enquêtes de terrain sur les pratiques agricoles, notamment l'usage des bio-intrants</li>
           <li>Mise en place et suivi d'un dispositif expérimental comparant l'efficacité d'un biopesticide à un pesticide chimique</li>
@@ -266,17 +300,24 @@
           <li>Set up and monitored an experimental trial comparing a biopesticide against a chemical pesticide</li>
           <li>Analyzed collected data to formulate actionable recommendations</li>
         </ul>
+        <ul data-lang="tr" hidden>
+          <li>Tarımsal uygulamalar, özellikle biyo-girdi kullanımı üzerine saha anketleri gerçekleştirme</li>
+          <li>Biyopestisit ile kimyasal pestisitin etkinliğini karşılaştıran bir deney düzeneğinin kurulması ve takibi</li>
+          <li>Somut öneriler oluşturmak için toplanan verilerin analizi</li>
+        </ul>
       </article>
 
       <article class="exp-card reveal">
         <div class="exp-icon">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
         </div>
-        <span class="timeline-date"><span data-lang="fr">Juil. 2024 — Nov. 2024</span><span data-lang="en" hidden>Jul. 2024 — Nov. 2024</span></span>
+        <span class="timeline-date"><span data-lang="fr">Juil. 2024 — Nov. 2024</span><span data-lang="en" hidden>Jul. 2024 — Nov. 2024</span><span data-lang="tr" hidden>Tem. 2024 — Kas. 2024</span></span>
         <h3 data-lang="fr">Stagiaire</h3>
         <h3 data-lang="en" hidden>Intern</h3>
+        <h3 data-lang="tr" hidden>Stajyer</h3>
         <p class="timeline-place" data-lang="fr">SOFITEX — Société Burkinabè des Fibres Textiles, Banfora</p>
         <p class="timeline-place" data-lang="en" hidden>SOFITEX — Burkina Faso Textile Fibers Company, Banfora</p>
+        <p class="timeline-place" data-lang="tr" hidden>SOFITEX — Burkina Tekstil Elyafları Şirketi, Banfora</p>
         <ul data-lang="fr">
           <li>Évaluation de l'efficacité de traitements chimiques contre les jassides, ravageurs majeurs du cotonnier</li>
           <li>Collecte et analyse de données en milieu agricole réel</li>
@@ -285,17 +326,23 @@
           <li>Evaluated the efficacy of chemical treatments against jassids, a major cotton pest</li>
           <li>Collected and analyzed data in real farming conditions</li>
         </ul>
+        <ul data-lang="tr" hidden>
+          <li>Pamuğun başlıca zararlılarından yaprak pirelerine (jassid) karşı kimyasal tedavilerin etkinliğinin değerlendirilmesi</li>
+          <li>Gerçek tarımsal ortamda veri toplama ve analiz</li>
+        </ul>
       </article>
 
       <article class="exp-card reveal">
         <div class="exp-icon">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2 2 7l10 5 10-5-10-5Z"/><path d="M2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
         </div>
-        <span class="timeline-date">2023 — <span data-lang="fr">45 jours</span><span data-lang="en" hidden>45 days</span></span>
+        <span class="timeline-date">2023 — <span data-lang="fr">45 jours</span><span data-lang="en" hidden>45 days</span><span data-lang="tr" hidden>45 gün</span></span>
         <h3 data-lang="fr">Stage d'immersion terrain</h3>
         <h3 data-lang="en" hidden>Field Immersion Internship</h3>
+        <h3 data-lang="tr" hidden>Saha Gözlem Stajı</h3>
         <p class="timeline-place" data-lang="fr">Village de Létiéfesso, Burkina Faso</p>
         <p class="timeline-place" data-lang="en" hidden>Létiéfesso village, Burkina Faso</p>
+        <p class="timeline-place" data-lang="tr" hidden>Létiéfesso köyü, Burkina Faso</p>
         <ul data-lang="fr">
           <li>Caractérisation des exploitations agricoles locales et de leurs systèmes de production</li>
           <li>Conduite d'enquêtes auprès des producteurs pour comprendre pratiques et contraintes</li>
@@ -303,6 +350,10 @@
         <ul data-lang="en" hidden>
           <li>Characterized local farms and their production systems</li>
           <li>Conducted producer surveys to understand local practices and constraints</li>
+        </ul>
+        <ul data-lang="tr" hidden>
+          <li>Yerel tarım işletmelerinin ve üretim sistemlerinin karakterizasyonu</li>
+          <li>Uygulama ve kısıtları anlamak için üreticilerle anketler yapılması</li>
         </ul>
       </article>
 
@@ -316,8 +367,10 @@
     <div class="section-head reveal">
       <p class="section-eyebrow" data-lang="fr">Leadership &amp; entrepreneuriat</p>
       <p class="section-eyebrow" data-lang="en" hidden>Leadership &amp; Entrepreneurship</p>
+      <p class="section-eyebrow" data-lang="tr" hidden>Liderlik &amp; Girişimcilik</p>
       <h2 data-lang="fr">Projets &amp; Initiatives</h2>
       <h2 data-lang="en" hidden>Projects &amp; Initiatives</h2>
+      <h2 data-lang="tr" hidden>Projeler &amp; Girişimler</h2>
     </div>
 
     <div class="project-grid">
@@ -331,13 +384,16 @@
             <h3>CLAGEC</h3>
             <p class="project-role" data-lang="fr">Président — depuis février 2025</p>
             <p class="project-role" data-lang="en" hidden>President — since February 2025</p>
+            <p class="project-role" data-lang="tr" hidden>Başkan — Şubat 2025'ten beri</p>
           </div>
         </div>
         <p class="project-full-name" data-lang="fr">Club AgroÉcologique de la région des Cascades — Centre Universitaire de Banfora</p>
         <p class="project-full-name" data-lang="en" hidden>Cascades Region AgroEcological Club — University Center of Banfora</p>
+        <p class="project-full-name" data-lang="tr" hidden>Cascades Bölgesi Agroekoloji Kulübü — Banfora Üniversite Merkezi</p>
 
         <p data-lang="fr"><strong>Mission :</strong> fédérer les étudiants des filières Sciences Agricoles et Génie Alimentaire autour de pratiques agroécologiques durables.</p>
         <p data-lang="en" hidden><strong>Mission:</strong> uniting Agricultural Sciences and Food Engineering students around sustainable agroecological practices.</p>
+        <p data-lang="tr" hidden><strong>Misyon:</strong> Tarım Bilimleri ve Gıda Mühendisliği bölümü öğrencilerini sürdürülebilir agroekolojik uygulamalar etrafında bir araya getirmek.</p>
 
         <ul data-lang="fr">
           <li>Relance officielle du club : Assemblée Générale constitutive (22 février 2025) et adoption des statuts (23 mars 2025)</li>
@@ -351,9 +407,16 @@
           <li>Set up internal training sessions for members (office tools, public speaking)</li>
           <li>Civic actions: clean-up operation at the FESTICAS festival, dialogue with the Ministry of Youth</li>
         </ul>
+        <ul data-lang="tr" hidden>
+          <li>Kulübün resmi olarak yeniden faaliyete geçirilmesi: Kurucu Genel Kurul (22 Şubat 2025) ve tüzüğün kabulü (23 Mart 2025)</li>
+          <li>SN-SOSUCO ve Gençler için Dinleme ve Diyalog Merkezi işbirliğiyle Büyük Yeniden Başlangıç Konferansı'nın düzenlenmesi (3 Haziran 2025)</li>
+          <li>Üyeler için iç eğitimlerin düzenlenmesi (ofis yazılımları, hitabet sanatı)</li>
+          <li>Vatandaşlık eylemleri: FESTICAS festivalinde temizlik operasyonu, Gençlik Bakanlığı ile diyalog</li>
+        </ul>
 
         <p class="project-impact" data-lang="fr">Impact : un bureau exécutif de 9 membres, l'unification des filières Sciences Agricoles et Génie Alimentaire, et le retour du club comme interlocuteur crédible face aux partenaires institutionnels et industriels.</p>
         <p class="project-impact" data-lang="en" hidden>Impact: a 9-member executive board, unification of the Agricultural Sciences and Food Engineering tracks, and the club's return as a credible partner for institutional and industrial stakeholders.</p>
+        <p class="project-impact" data-lang="tr" hidden>Etki: 9 üyeli bir yönetim kurulu, Tarım Bilimleri ve Gıda Mühendisliği bölümlerinin birleşmesi ve kulübün kurumsal ve sanayi ortakları karşısında güvenilir bir muhatap olarak geri dönüşü.</p>
       </article>
 
       <article class="project-card reveal">
@@ -365,19 +428,24 @@
             <h3>Apex E-Know</h3>
             <p class="project-role" data-lang="fr">Co-fondateur &amp; CEO — depuis avril 2026</p>
             <p class="project-role" data-lang="en" hidden>Co-founder &amp; CEO — since April 2026</p>
+            <p class="project-role" data-lang="tr" hidden>Kurucu Ortak &amp; CEO — Nisan 2026'dan beri</p>
           </div>
         </div>
         <p class="project-full-name" data-lang="fr">Agence digitale — Création web &amp; apps, marketing digital, design graphique</p>
         <p class="project-full-name" data-lang="en" hidden>Digital agency — Web &amp; app development, digital marketing, graphic design</p>
+        <p class="project-full-name" data-lang="tr" hidden>Dijital ajans — Web &amp; uygulama geliştirme, dijital pazarlama, grafik tasarım</p>
 
         <p data-lang="fr"><strong>Mission :</strong> accompagner les entreprises, notamment africaines, dans leur transformation digitale, avec des solutions créatives, accessibles et adaptées aux besoins réels.</p>
         <p data-lang="en" hidden><strong>Mission:</strong> supporting businesses, particularly in Africa, through their digital transformation with creative, accessible solutions tailored to real needs.</p>
+        <p data-lang="tr" hidden><strong>Misyon:</strong> özellikle Afrikalı işletmelere, gerçek ihtiyaçlara uygun, erişilebilir ve yaratıcı çözümlerle dijital dönüşümlerinde destek olmak.</p>
 
         <p data-lang="fr"><strong>Vision :</strong> devenir une agence digitale de référence en Afrique, reconnue pour la qualité de ses livrables et l'impact de ses solutions.</p>
         <p data-lang="en" hidden><strong>Vision:</strong> becoming a leading digital agency in Africa, recognized for the quality of its deliverables and the impact of its solutions.</p>
+        <p data-lang="tr" hidden><strong>Vizyon:</strong> Afrika'da, sunduğu hizmetlerin kalitesi ve çözümlerinin etkisiyle tanınan öncü bir dijital ajans olmak.</p>
 
         <p class="project-impact" data-lang="fr">Fondée aux côtés d'un chargé commercial &amp; marketing et d'un designer graphique, sur des valeurs d'excellence, d'intégrité et de créativité.</p>
         <p class="project-impact" data-lang="en" hidden>Founded alongside a sales &amp; marketing lead and a graphic designer, built on values of excellence, integrity and creativity.</p>
+        <p class="project-impact" data-lang="tr" hidden>Bir satış &amp; pazarlama sorumlusu ve bir grafik tasarımcıyla birlikte, mükemmellik, dürüstlük ve yaratıcılık değerleri üzerine kurulmuştur.</p>
       </article>
 
     </div>
@@ -390,8 +458,10 @@
     <div class="section-head reveal">
       <p class="section-eyebrow" data-lang="fr">Boîte à outils</p>
       <p class="section-eyebrow" data-lang="en" hidden>Toolbox</p>
+      <p class="section-eyebrow" data-lang="tr" hidden>Araç Kutusu</p>
       <h2 data-lang="fr">Compétences</h2>
       <h2 data-lang="en" hidden>Skills</h2>
+      <h2 data-lang="tr" hidden>Yetenekler</h2>
     </div>
 
     <div class="skills-grid">
@@ -402,6 +472,7 @@
         </div>
         <h3 data-lang="fr">Sciences agricoles &amp; biotechnologie</h3>
         <h3 data-lang="en" hidden>Agricultural Science &amp; Biotechnology</h3>
+        <h3 data-lang="tr" hidden>Tarım Bilimleri &amp; Biyoteknoloji</h3>
         <ul data-lang="fr">
           <li>Agroécologie &amp; biotechnologies agricoles</li>
           <li>Recherche &amp; expérimentation de terrain</li>
@@ -414,6 +485,12 @@
           <li>Crop protection (biological control)</li>
           <li>Basics of gene editing (CRISPR-Cas9)</li>
         </ul>
+        <ul data-lang="tr" hidden>
+          <li>Agroekoloji &amp; tarımsal biyoteknolojiler</li>
+          <li>Araştırma &amp; saha deneyimi</li>
+          <li>Bitki koruma (biyolojik mücadele)</li>
+          <li>Genetik düzenleme temelleri (CRISPR-Cas9)</li>
+        </ul>
       </div>
 
       <div class="skill-block reveal">
@@ -422,6 +499,7 @@
         </div>
         <h3 data-lang="fr">Outils &amp; données</h3>
         <h3 data-lang="en" hidden>Tools &amp; Data</h3>
+        <h3 data-lang="tr" hidden>Araçlar &amp; Veri</h3>
         <ul data-lang="fr">
           <li>Enquêtes numériques (KoBoToolbox)</li>
           <li>Analyse de données (Python, R, Excel)</li>
@@ -434,6 +512,12 @@
           <li>Inferential statistics &amp; meta-analysis (ANOVA, R)</li>
           <li>Microsoft Office suite</li>
         </ul>
+        <ul data-lang="tr" hidden>
+          <li>Dijital anketler (KoBoToolbox)</li>
+          <li>Veri analizi (Python, R, Excel)</li>
+          <li>Çıkarımsal istatistik &amp; meta-analiz (ANOVA, R)</li>
+          <li>Microsoft Office paketi</li>
+        </ul>
       </div>
 
       <div class="skill-block reveal">
@@ -442,6 +526,7 @@
         </div>
         <h3 data-lang="fr">Leadership &amp; entrepreneuriat</h3>
         <h3 data-lang="en" hidden>Leadership &amp; Entrepreneurship</h3>
+        <h3 data-lang="tr" hidden>Liderlik &amp; Girişimcilik</h3>
         <ul data-lang="fr">
           <li>Leadership associatif (Présidence CLAGEC)</li>
           <li>Gestion de projet</li>
@@ -454,6 +539,12 @@
           <li>Digital marketing</li>
           <li>Teamwork &amp; cross-cultural coordination</li>
         </ul>
+        <ul data-lang="tr" hidden>
+          <li>Dernek liderliği (CLAGEC Başkanlığı)</li>
+          <li>Proje yönetimi</li>
+          <li>Dijital pazarlama</li>
+          <li>Takım çalışması &amp; çok kültürlü koordinasyon</li>
+        </ul>
       </div>
 
       <div class="skill-block reveal">
@@ -462,15 +553,17 @@
         </div>
         <h3 data-lang="fr">Langues</h3>
         <h3 data-lang="en" hidden>Languages</h3>
+        <h3 data-lang="tr" hidden>Diller</h3>
         <ul class="lang-list">
           <li><span>Français</span><span class="lang-level"><i></i><i></i><i></i><i></i><i></i></span></li>
           <li><span>Mooré</span><span class="lang-level"><i></i><i></i><i></i><i></i><i></i></span></li>
           <li><span>Dioula</span><span class="lang-level"><i></i><i></i><i></i><i></i><i></i></span></li>
-          <li><span data-lang="fr">Anglais</span><span data-lang="en" hidden>English</span><span class="lang-level"><i></i><i></i><i></i><i></i><i class="off"></i></span></li>
-          <li><span data-lang="fr">Turc</span><span data-lang="en" hidden>Turkish</span><span class="lang-level"><i></i><i></i><i></i><i></i><i></i></span></li>
+          <li><span data-lang="fr">Anglais</span><span data-lang="en" hidden>English</span><span data-lang="tr" hidden>İngilizce</span><span class="lang-level"><i></i><i></i><i></i><i></i><i class="off"></i></span></li>
+          <li><span data-lang="fr">Turc</span><span data-lang="en" hidden>Turkish</span><span data-lang="tr" hidden>Türkçe</span><span class="lang-level"><i></i><i></i><i></i><i></i><i></i></span></li>
         </ul>
         <p class="lang-note" data-lang="fr">Anglais — niveau B2 (intermédiaire supérieur). Turc certifié C1 (92/100) — TÖMER, Malatya Turgut Özal Üniversitesi.</p>
         <p class="lang-note" data-lang="en" hidden>English — B2 level (upper-intermediate). Turkish certified C1 (92/100) — TÖMER, Malatya Turgut Özal University.</p>
+        <p class="lang-note" data-lang="tr" hidden>İngilizce — B2 seviyesi (üst-orta düzey). Türkçe C1 sertifikalı (92/100) — TÖMER, Malatya Turgut Özal Üniversitesi.</p>
       </div>
 
     </div>
@@ -480,16 +573,19 @@
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="m9 12 2 2 4-4M12 3l1.9 1.4 2.4-.3.7 2.3L19 8l-1 2.2L19 12.4l-2 1.6-.7 2.3-2.4-.3L12 17.4l-1.9-1.4-2.4.3-.7-2.3L5 12.4 6 10.2 5 8l2-1.6.7-2.3 2.4.3L12 3Z"/></svg>
         <span data-lang="fr">Partenaire B2B enregistré Kaspersky (SAWADOGO DIGITAL SERVICE) — formateur certifié KoBoToolbox, 9 personnes formées (août 2025)</span>
         <span data-lang="en" hidden>Registered Kaspersky B2B Partner (SAWADOGO DIGITAL SERVICE) — certified KoBoToolbox trainer, 9 people trained (August 2025)</span>
+        <span data-lang="tr" hidden>Kayıtlı Kaspersky B2B İş Ortağı (SAWADOGO DIGITAL SERVICE) — sertifikalı KoBoToolbox eğitmeni, 9 kişi eğitildi (Ağustos 2025)</span>
       </div>
       <div class="cert-strip reveal">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a13 13 0 0 1 0 18M12 3a13 13 0 0 0 0 18"/></svg>
         <span data-lang="fr">Certificat des Nations Unies (CEE-ONU) — Surveillance des effets de la pollution atmosphérique transfrontière (déc. 2025)</span>
         <span data-lang="en" hidden>United Nations (UNECE) Certificate — Monitoring air pollution effects under the Convention on Long-range Transboundary Air Pollution (Dec. 2025)</span>
+        <span data-lang="tr" hidden>Birleşmiş Milletler Sertifikası (UNECE) — Sınır Ötesi Hava Kirliliği Etkilerinin İzlenmesi (Ara. 2025)</span>
       </div>
       <div class="cert-strip reveal">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M3 3v18h18M7 15l4-5 3 3 5-7"/></svg>
         <span data-lang="fr">Formation en méta-analyse sous R — LABEF, Université d'Abomey-Calavi (Bénin), en partenariat avec l'Université de Fribourg et la Fondation Alexander von Humboldt (juin-juil. 2026)</span>
         <span data-lang="en" hidden>Meta-analysis training with R — LABEF, University of Abomey-Calavi (Benin), in partnership with the University of Fribourg and the Alexander von Humboldt Foundation (Jun.-Jul. 2026)</span>
+        <span data-lang="tr" hidden>R ile Meta-Analiz Eğitimi — LABEF, Abomey-Calavi Üniversitesi (Benin), Fribourg Üniversitesi ve Alexander von Humboldt Vakfı işbirliğiyle (Haz.-Tem. 2026)</span>
       </div>
     </div>
   </div>
@@ -501,10 +597,13 @@
     <div class="section-head reveal">
       <p class="section-eyebrow" data-lang="fr">Contact</p>
       <p class="section-eyebrow" data-lang="en" hidden>Contact</p>
+      <p class="section-eyebrow" data-lang="tr" hidden>İletişim</p>
       <h2 data-lang="fr">Construisons quelque chose ensemble</h2>
       <h2 data-lang="en" hidden>Let's build something together</h2>
+      <h2 data-lang="tr" hidden>Birlikte Bir Şeyler İnşa Edelim</h2>
       <p class="section-lead" data-lang="fr">Ouvert aux collaborations, partenariats et échanges professionnels en agropastoralisme, biotechnologie agricole et entrepreneuriat digital.</p>
       <p class="section-lead" data-lang="en" hidden>Open to collaborations, partnerships and professional exchanges in agropastoralism, agricultural biotechnology and digital entrepreneurship.</p>
+      <p class="section-lead" data-lang="tr" hidden>Agropastoralizm, tarımsal biyoteknoloji ve dijital girişimcilik alanlarında iş birliklerine, ortaklıklara ve profesyonel görüşmelere açığım.</p>
     </div>
 
     <div class="contact-grid">
@@ -512,21 +611,21 @@
         <a class="contact-item" href="mailto:louckmanesawadogo858@gmail.com">
           <span class="contact-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></span>
           <span>
-            <strong data-lang="fr">Email</strong><strong data-lang="en" hidden>Email</strong>
+            <strong data-lang="fr">Email</strong><strong data-lang="en" hidden>Email</strong><strong data-lang="tr" hidden>E-posta</strong>
             <span>louckmanesawadogo858@gmail.com</span>
           </span>
         </a>
         <a class="contact-item" href="tel:+905016228191">
           <span class="contact-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.3 1.8.6 2.7a2 2 0 0 1-.4 2.1L8.1 9.7a16 16 0 0 0 6 6l1.2-1.2a2 2 0 0 1 2.1-.4c.9.3 1.8.5 2.7.6a2 2 0 0 1 1.9 2Z"/></svg></span>
           <span>
-            <strong data-lang="fr">Téléphone — Turquie</strong><strong data-lang="en" hidden>Phone — Turkey</strong>
+            <strong data-lang="fr">Téléphone — Turquie</strong><strong data-lang="en" hidden>Phone — Turkey</strong><strong data-lang="tr" hidden>Telefon — Türkiye</strong>
             <span>+90 501 622 8191</span>
           </span>
         </a>
         <a class="contact-item" href="tel:+22666585269">
           <span class="contact-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.3 1.8.6 2.7a2 2 0 0 1-.4 2.1L8.1 9.7a16 16 0 0 0 6 6l1.2-1.2a2 2 0 0 1 2.1-.4c.9.3 1.8.5 2.7.6a2 2 0 0 1 1.9 2Z"/></svg></span>
           <span>
-            <strong data-lang="fr">Téléphone — Burkina Faso</strong><strong data-lang="en" hidden>Phone — Burkina Faso</strong>
+            <strong data-lang="fr">Téléphone — Burkina Faso</strong><strong data-lang="en" hidden>Phone — Burkina Faso</strong><strong data-lang="tr" hidden>Telefon — Burkina Faso</strong>
             <span>+226 66 58 52 69</span>
           </span>
         </a>
@@ -534,14 +633,14 @@
           <span class="contact-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/><path d="M10 9v12M10 13a4 4 0 0 1 8 0v8"/></svg></span>
           <span>
             <strong>LinkedIn</strong>
-            <span data-lang="fr">Voir mon profil</span><span data-lang="en" hidden>View my profile</span>
+            <span data-lang="fr">Voir mon profil</span><span data-lang="en" hidden>View my profile</span><span data-lang="tr" hidden>Profilimi görüntüleyin</span>
           </span>
         </a>
         <div class="contact-item contact-item-static">
           <span class="contact-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg></span>
           <span>
-            <strong data-lang="fr">Basé à</strong><strong data-lang="en" hidden>Based in</strong>
-            <span data-lang="fr">Malatya, Turquie</span><span data-lang="en" hidden>Malatya, Turkey</span>
+            <strong data-lang="fr">Basé à</strong><strong data-lang="en" hidden>Based in</strong><strong data-lang="tr" hidden>Bulunduğu yer</strong>
+            <span data-lang="fr">Malatya, Turquie</span><span data-lang="en" hidden>Malatya, Turkey</span><span data-lang="tr" hidden>Malatya, Türkiye</span>
           </span>
         </div>
       </div>
@@ -550,28 +649,33 @@
         <div class="form-row">
           <label for="cf-name" data-lang="fr">Nom complet</label>
           <label for="cf-name" data-lang="en" hidden>Full name</label>
+          <label for="cf-name" data-lang="tr" hidden>Ad Soyad</label>
           <input type="text" id="cf-name" name="name" required>
         </div>
         <div class="form-row">
           <label for="cf-email" data-lang="fr">Votre email</label>
           <label for="cf-email" data-lang="en" hidden>Your email</label>
+          <label for="cf-email" data-lang="tr" hidden>E-posta adresiniz</label>
           <input type="email" id="cf-email" name="email" required>
         </div>
         <div class="form-row">
           <label for="cf-subject" data-lang="fr">Sujet</label>
           <label for="cf-subject" data-lang="en" hidden>Subject</label>
+          <label for="cf-subject" data-lang="tr" hidden>Konu</label>
           <input type="text" id="cf-subject" name="subject" required>
         </div>
         <div class="form-row">
           <label for="cf-message" data-lang="fr">Message</label>
           <label for="cf-message" data-lang="en" hidden>Message</label>
+          <label for="cf-message" data-lang="tr" hidden>Mesaj</label>
           <textarea id="cf-message" name="message" rows="5" required></textarea>
         </div>
         <button type="submit" class="btn btn-primary btn-block">
-          <span data-lang="fr">Envoyer le message</span><span data-lang="en" hidden>Send message</span>
+          <span data-lang="fr">Envoyer le message</span><span data-lang="en" hidden>Send message</span><span data-lang="tr" hidden>Mesajı Gönder</span>
         </button>
         <p class="form-note" data-lang="fr">Ce formulaire ouvre votre messagerie pour m'envoyer un email directement.</p>
         <p class="form-note" data-lang="en" hidden>This form opens your email client to send me a message directly.</p>
+        <p class="form-note" data-lang="tr" hidden>Bu form, doğrudan bana e-posta göndermek için e-posta uygulamanızı açar.</p>
       </form>
     </div>
   </div>
@@ -585,8 +689,10 @@
     <span>© <span id="year"></span> Louckmane SAWADOGO</span>
     <span class="footer-tagline" data-lang="fr">Fait avec rigueur, entre le Burkina Faso et la Turquie.</span>
     <span class="footer-tagline" data-lang="en" hidden>Made with rigor, between Burkina Faso and Turkey.</span>
+    <span class="footer-tagline" data-lang="tr" hidden>Burkina Faso ile Türkiye arasında, titizlikle hazırlandı.</span>
     <a href="#accueil" class="footer-top" data-lang="fr">Haut de page ↑</a>
     <a href="#accueil" class="footer-top" data-lang="en" hidden>Back to top ↑</a>
+    <a href="#accueil" class="footer-top" data-lang="tr" hidden>Sayfa başına dön ↑</a>
   </div>
 </footer>
 

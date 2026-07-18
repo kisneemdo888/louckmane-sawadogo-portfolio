@@ -36,32 +36,36 @@ document.addEventListener('DOMContentLoaded', () => {
     link.addEventListener('click', closeNav);
   });
 
-  /* ---------- Bascule de langue FR / EN ---------- */
-  const langToggle = document.getElementById('lang-toggle');
+  /* ---------- Bascule de langue FR / EN / TR ---------- */
+  const LANGS = ['fr', 'en', 'tr'];
+  const langButtons = document.querySelectorAll('.lang-btn');
   const html = document.documentElement;
 
   function applyLang(lang) {
+    if (!LANGS.includes(lang)) lang = 'fr';
+
     html.setAttribute('lang', lang);
     html.setAttribute('data-lang', lang);
 
-    document.querySelectorAll('[data-lang="fr"]').forEach(el => {
-      el.hidden = lang !== 'fr';
+    LANGS.forEach(l => {
+      document.querySelectorAll(`[data-lang="${l}"]`).forEach(el => {
+        el.hidden = lang !== l;
+      });
     });
-    document.querySelectorAll('[data-lang="en"]').forEach(el => {
-      el.hidden = lang !== 'en';
+
+    langButtons.forEach(btn => {
+      btn.classList.toggle('active', btn.dataset.setLang === lang);
     });
 
     localStorage.setItem('ls-portfolio-lang', lang);
   }
 
-  langToggle.addEventListener('click', () => {
-    const current = html.getAttribute('data-lang') || 'fr';
-    applyLang(current === 'fr' ? 'en' : 'fr');
+  langButtons.forEach(btn => {
+    btn.addEventListener('click', () => applyLang(btn.dataset.setLang));
   });
 
   const savedLang = localStorage.getItem('ls-portfolio-lang');
-  if (savedLang === 'en') applyLang('en');
-  else applyLang('fr');
+  applyLang(LANGS.includes(savedLang) ? savedLang : 'fr');
 
   /* ---------- Animation au scroll (fade-in) ---------- */
   const revealItems = document.querySelectorAll('.reveal');
